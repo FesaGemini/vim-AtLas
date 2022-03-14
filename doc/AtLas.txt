@@ -69,3 +69,33 @@ or
 to list available plugins
 
 =============================================================
+MAPPINGS                                        *atlas-mapping*
+
+Mappings is done by editing the mapping file
+for quick directing do 
+> 
+  :Mapfile
+<
+
+mapping follows this syntax
+
+1. Use single quote
+map('')
+
+2. Assign stuff on theire apropriate place
+map('<mode>')
+
+there are 3 mode, n for normal, i for insert, v for visual
+
+3. Mapping done by
+map('<mode>', '<Key>')
+
+4. Assign command on the third argument
+map('<mode>', '<Key>', '<command>')
+
+5. Assign opt on the fourth argument (REQUIRED!) 
+map('<mode>', '<Key>', '<command>', opt)
+
+Following given syntax must be applied to have clean, minimalist and readable file
+
+=============================================================
