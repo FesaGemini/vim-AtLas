@@ -1,0 +1,19 @@
+*atlas*
+
+CONTENTS                                                        *atlas-contents*
+
+  INTRODUCTION .......................................... |atlas-intro|
+
+INTRODUCTION                                                     *atlas-intro*
+
+Welcome to AtLas documentation! AtLas is a neovim distribution made for everyone that ease 
+the process of programming. atlas-vim is part of the AtLas project
+
+PLUGINS                                                          *atlas-plugins*
+
+Adding plugins can be done by editing the file in $XDG_CONFIG_HOME/nvim/lua/core/plugins.lua
+
+For fast directing, do 
+>
+    :Plugfile
+<
