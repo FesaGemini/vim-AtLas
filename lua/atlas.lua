@@ -1,5 +1,9 @@
 local atlas = {}
 
-function atlas.setup(config)
-  command! Plugfile :e ~/.config/nvim/lua/core/plugins.lua
+function atlas.setup()
+  vim.cmd[[
+    command! Plugfile :e ~/.config/nvim/lua/core/plugins.lua
+  ]]
 end
+
+return atlas 
