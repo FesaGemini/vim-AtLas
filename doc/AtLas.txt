@@ -4,12 +4,15 @@ CONTENTS                                                        *atlas-contents*
 
   INTRODUCTION .......................................... |atlas-intro|
   PLUGINS ............................................... |atlas-plugins|
+  AUTOCOMPLETION ........................................ |atlas-autocomplete|
 
+==============================================================================
 INTRODUCTION                                                     *atlas-intro*
 
 Welcome to AtLas documentation! AtLas is a neovim distribution made for everyone that ease 
 the process of programming. atlas-vim is part of the AtLas project
 
+==============================================================================
 PLUGINS                                                          *atlas-plugins*
 
 Adding plugins can be done by editing the file in $XDG_CONFIG_HOME/nvim/lua/core/plugins.lua
@@ -21,8 +24,48 @@ For fast directing, do
 
 plugins follows these syntax requirements for clean, simple and readable
 
-*one-line plugins*
+one-line plugins
 >
   use { 'plugins' }
 <
-    
+
+plugins with alias
+>
+  use { 'plugins', as = "plugins" }
+<
+
+plugins with requirements
+>
+  use { 'plugins',
+        require = "plugins"
+      }
+<
+
+multiple plugins with the same purpose
+
+1 . Use comments or 
+2. Use multiline use function
+
+use {
+    'plugins',
+    'plugins'
+}
+
+=============================================================
+AUTOCOMPLETION                                  *atlas-autocomplete*
+
+Using lsp and nvim-cmp providing fast and reliable completion features
+
+To install language server do 
+> 
+  :LspInstall <language server>
+<
+
+or 
+>
+  :LspInstallInfo
+<
+
+to list available plugins
+
+=============================================================
