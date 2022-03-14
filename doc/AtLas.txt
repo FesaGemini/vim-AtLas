@@ -5,6 +5,7 @@ CONTENTS                                                        *atlas-contents*
   INTRODUCTION .......................................... |atlas-intro|
   PLUGINS ............................................... |atlas-plugins|
   AUTOCOMPLETION ........................................ |atlas-autocomplete|
+  MAPPPINGS ............................................. |atlas-mapping|
 
 ==============================================================================
 INTRODUCTION                                                     *atlas-intro*
