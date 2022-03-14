@@ -3,6 +3,7 @@
 CONTENTS                                                        *atlas-contents*
 
   INTRODUCTION .......................................... |atlas-intro|
+  PLUGINS ............................................... |atlas-plugins|
 
 INTRODUCTION                                                     *atlas-intro*
 
@@ -17,3 +18,11 @@ For fast directing, do
 >
     :Plugfile
 <
+
+plugins follows these syntax requirements for clean, simple and readable
+
+*one-line plugins*
+>
+  use { 'plugins' }
+<
+    
