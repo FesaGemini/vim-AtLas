@@ -58,7 +58,7 @@ Using lsp and nvim-cmp providing fast and reliable completion features
 
 To install language server do 
 > 
-  :LspInstall <language server>
+  :LspInstall
 <
 
 or 
